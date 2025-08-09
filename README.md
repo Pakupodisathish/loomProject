@@ -1,5 +1,8 @@
 # 🎥 Video Recorder & Image Capture Web App
 
+# Demo 
+#[live Demo](https://pakupodisathish.github.io/loomProject/)
+
 A simple **camera recorder and image capture tool** built with HTML, CSS, and JavaScript using the **MediaRecorder API** and Canvas.  
 It allows you to:
 - Record videos from your webcam.
@@ -38,11 +41,6 @@ It allows you to:
 
 4. **Filters**  
    Clicking on a filter changes the overlay color and applies it to both the live feed and captured images.
-
----
-
-## 🖥 Demo
-*(Add GitHub Pages or hosted link here if available)*
 
 ---
 
