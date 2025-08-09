@@ -48,7 +48,6 @@ It allows you to:
 
 ## 📸 Usage
 1. **Clone this repository**
-   ```bash
 git clone https://github.com/your-username/video-recorder-app.git
 Open the project folder
 cd video-recorder-app
@@ -56,19 +55,8 @@ Open index.html in a browser
 Allow camera (and microphone, if enabled) permissions.
 
 # 🔧 Customization
-# Enable Audio
-Change:
-const constraints = { video: false, audio: false }
-to:
+# Enable Audio,Video
 const constraints = { video: true, audio: true }
-
-
-# Change Video Format
-Update:
-let blob = new Blob(chunks, { type: "video/mp4" })
-
-to:
-let blob = new Blob(chunks, { type: "video/webm" })
 
 # 📜 License
 This project is open-source and available under the MIT License.
