@@ -8,7 +8,7 @@ let chunks=[];
 let recordFlag=false;
 let transparentColor="transparent"
 const constraints={
-    video:true,audio:false}
+    video:true,audio:true}
 
 navigator.mediaDevices.getUserMedia(constraints)
 .then((stream)=>{
