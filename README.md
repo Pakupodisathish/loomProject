@@ -49,9 +49,13 @@ It allows you to:
 ## 📸 Usage
 1. **Clone this repository**
 git clone https://github.com/your-username/video-recorder-app.git
+
 Open the project folder
+
 cd video-recorder-app
+
 Open index.html in a browser
+
 Allow camera (and microphone, if enabled) permissions.
 
 # 🔧 Customization
